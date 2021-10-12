@@ -17,10 +17,12 @@
   <header class="header">
     <div class="container flex">
       <img src="img/logo-white.png" alt="logo" class="logo">
-      <form action="#" class="search-form ">
-        <i class="fas fa-search"></i>
-        <input type="text" name="" id="" class="search__input" placeholder="Search projects" autocomplete=" off">
-      </form>
+      <div class="search">
+        <form action="#" class="search-form ">
+          <label for="search__input"><i class="fas fa-search"></i></label>
+          <input type="text" name="" id="" class="search__input" placeholder="Search projects" autocomplete=" off">
+        </form>
+      </div>
       <nav class="nav flex">
         <ul class="">
           <li><a href="#">Dashboard</a></li>
@@ -34,24 +36,26 @@
   </header>
 
   <main class="main">
-    <div class="container grid  ">
+    <div class="container grid grid-3 ">
       <!-- user profile -->
       <div class="col-1">
         <div class="contact-info m-1">
-          <div class="user-nav">
-            <div>
+          <div class="contact-details">
+            <div class="user-profile-img">
               <img src="img/user.jpg" alt="" class="user-image">
             </div>
-            <div>
-              <p class="user-name px-1">Debbie Lewis</p>
-              <p class=""><i class="fab fa-github px-1"></i>debbielewis</p>
+            <div class="user-profile-details">
+              <div class="user-name px-1">Debbie Lewis</div>
+              <div class="user-username">
+                <p><i class="fab fa-github px-1"></i>debbielewis</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="project info">
+        <div class="project info m-1">
           <form action="#" class="project-info">
-            <input type="submit" value="New Project" class="btn btn-primary m-1">
-            <input type="submit" value="Invite Team" class="btn btn-secondary btn-secondary m-1">
+            <input type="submit" value="New Project" class="btn btn-primary">
+            <input type="submit" value="Invite Team" class="btn btn-secondary btn-secondary my-1">
           </form>
 
           <div class="pro-member">
@@ -67,8 +71,9 @@
         <div class="header-area flex card">
           <p class="header-title m-2">Projects</p>
           <div class="sort m-2">
+            <i class="fas fa-sort-amount-up"></i>
             <select>
-              <option value=""><i class="fas fa-sort-amount-up"></i> Sort</option>
+              <option value="">Sort</option>
             </select>
           </div>
         </div>
