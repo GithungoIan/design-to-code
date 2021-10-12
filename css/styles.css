@@ -72,13 +72,13 @@ li a {
   justify-content: space-between;
 }
 
-.col-2 .sort  select {
+.col-2 .sort select {
   padding: 10px 20px;
   border-radius: 10px;
   background-color: none;
 }
 
-.project-card  .on {
+.project-card .on {
   color: yellow;
 }
 
@@ -94,3 +94,16 @@ li a {
   border-bottom: 1px solid #808080;
 }
 
+.dot-circle {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+
+.active{
+  background: radial-gradient(#32b88b 30%, #c0e5d0 40% , transparent 90%);
+}
+
+.offline {
+  background: radial-gradient(#a3a5aa 30%, #c1c2c5 43% , transparent 90%);
+}
