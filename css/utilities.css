@@ -38,7 +38,7 @@
   color: #333;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   padding: 2px;
-  border: 1px solid #808080;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .flex {

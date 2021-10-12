@@ -1,7 +1,9 @@
 :root {
-  --primary-color: #3442b9;
+  --primary-color: #4f46e5;
   --secondary-color: #fff;
   --light-color: #5b57e9;
+  --border-color: #e7e9ec;
+  --activity-color: #f9fafb;
 }
 
 @font-face {
@@ -129,7 +131,7 @@ label {
 .col-2,
 .col-3 {
   height: calc(100vh - 60px);
-  border: 1px solid rgb(204, 202, 202);
+  border-left: 1px solid var(--border-color);
   overflow: auto;
   scrollbar-width: none;
   /* overflow: hidden; */
@@ -158,11 +160,17 @@ label {
 }
 
 .col-3 {
-  background-color: rgb(248, 246, 246);
+  background-color: var(--activity-color);
+}
+
+.activity-header-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .activity-card {
-  border-bottom: 1px solid #808080;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .dot-circle {
