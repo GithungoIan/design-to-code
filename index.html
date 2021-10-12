@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/utilities.css">
+  <title>Design-to-code</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container flex">
+      <img src="img/logo-white.png" alt="logo" class="logo">
+      <div class="search">
+        <form action="#" class="search-form ">
+          <label for="search__input"><i class="fas fa-search"></i></label>
+          <input type="text" name="" id="" class="search__input" placeholder="Search projects" autocomplete=" off">
+        </form>
+      </div>
+      <nav class="nav flex">
+        <ul class="">
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Domain</a></li>
+        </ul>
+        <div class="user-nav">
+          <img src="img/user.jpg" alt="User Image" class="user-image">
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container grid grid-3 ">
+      <!-- user profile -->
+      <div class="col-1">
+        <div class="contact-info m-1">
+          <div class="contact-details">
+            <div class="user-profile-img">
+              <img src="img/user.jpg" alt="" class="user-image">
+            </div>
+            <div class="user-profile-details">
+              <div class="user-name px-1">Debbie Lewis</div>
+              <div class="user-username">
+                <p><i class="fab fa-github px-1"></i>debbielewis</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project info m-1">
+          <form action="#" class="project-info">
+            <input type="submit" value="New Project" class="btn btn-primary">
+            <input type="submit" value="Invite Team" class="btn btn-secondary btn-secondary my-1">
+          </form>
+
+          <div class="pro-member">
+            <p class="members"> <span><i class="fas fa-check-circle p-1"></i></span>Pro Member</p>
+          </div>
+          <div class="projects">
+            <p class="projects"> <span><i class="fas fa-folder-open p-1"></i></span>8 Projects</p>
+          </div>
+        </div>
+      </div>
+      <!-- Project list -->
+      <div class="col-2">
+        <div class="header-area flex card">
+          <p class="header-title m-2">Projects</p>
+          <div class="sort m-2">
+            <i class="fas fa-sort-amount-up"></i>
+            <select>
+              <option value="">Sort</option>
+            </select>
+          </div>
+        </div>
+        <div class="project-list-cards">
+          <div class="project-card card">
+            <div class="card-header flex">
+              <div class="flex">
+                <div class="dot-circle active m-1">
+                </div>
+                <p class="">Workcation</p>
+              </div>
+              <div>
+                <p class="m-1">Visit site <i class="fas fa-star on"></i></p>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="details flex  ">
+                <div class="left">
+                  <p><i class="fab fa-github m-1"></i> debbielewis/Workcation</p>
+                </div>
+                <div class="right m-1">
+                  <p>Laravel . Last deploy 3h ago . United states</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card card">
+            <div class="card-header flex">
+              <div class="flex">
+                <div class="dot-circle active m-1"></div>
+                <p class="">Easywire</p>
+              </div>
+              <div>
+                <p class="m-1">Visit site <i class="fas fa-star on"></i></p>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="details flex">
+                <div class="left">
+                  <p><i class="fab fa-github m-1"></i> debbielewis/easywire</p>
+                </div>
+                <div class="right m-1">
+                  <p>NextJS . Last deploy 6h ago . United states</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card card">
+            <div class="card-header flex">
+              <div class="flex">
+                <div class="dot-circle active m-1"></div>
+                <p class="">Workflow</p>
+              </div>
+              <div>
+                <p class="m-1">Visit site <i class="fas fa-star on"></i></p>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="details flex m-1 ">
+                <div class="left">
+                  <p><i class="fab fa-github"></i> debbielewis/workflow</p>
+                </div>
+                <div class="right">
+                  <p>Laravel . Last deploy 4d ago . United states</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card card">
+            <div class="card-header flex">
+              <div class="flex">
+                <div class="dot-circle offline m-1"></div>
+                <p class="">KiteTail</p>
+              </div>
+              <div>
+                <p class="m-1">Visit site <i class="fas fa-star"></i></p>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="details flex m-1 ">
+                <div class="left">
+                  <p><i class="fab fa-github"></i> debbielewis/kitetail</p>
+                </div>
+                <div class="right">
+                  <p>Laravel . Last deploy 4d ago . United states</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card card">
+            <div class="card-header flex">
+              <div class="flex">
+                <div class="dot-circle active m-1"></div>
+                <p class="">Talk Slides</p>
+              </div>
+              <div>
+                <p class="m-1">Visit site <i class="fas fa-star on"></i></p>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="details flex m-1 ">
+                <div class="left">
+                  <p><i class="fab fa-github"></i> debbielewis/talk-slides</p>
+                </div>
+                <div class="right">
+                  <p>Laravel . Last deploy 3h ago . United states</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card card">
+            <div class="card-header flex">
+              <div class="flex">
+                <div class="dot-circle active m-1"></div>
+                <p class="">Personal Website</p>
+              </div>
+              <div>
+                <p class="m-1">Visit site <i class="fas fa-star"></i></p>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="details flex m-1 ">
+                <div class="left">
+                  <p><i class="fab fa-github"></i> debbielewis/personal-website</p>
+                </div>
+                <div class="right">
+                  <p>NextJS . Last deploy 3h ago . United states</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card card">
+            <div class="card-header flex ">
+              <div class="flex">
+                <div class="dot-circle offline m-1"></div>
+                <p class="">Digest</p>
+              </div>
+              <div>
+                <p class="m-1">Visit site <i class="fas fa-star"></i></p>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="details flex m-1 ">
+                <div class="left">
+                  <p><i class="fab fa-github"></i> debbielewis/digest</p>
+                </div>
+                <div class="right">
+                  <p>Laravel . Last deploy 3h ago . United states</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- git log -->
+      <div class="col-3">
+        <div class="header-area">
+          <h3 class="header-title p-1">Activity</h3>
+        </div>
+        <div class="activity-list">
+          <div class="activity-card m-1">
+            <div class="header-info m-1 flex">
+              <div>
+                <img src="img/user.jpg" alt="" class="user-image">
+                <span class="user-name">You</span>
+              </div>
+              <div>
+                <p>1h</p>
+              </div>
+            </div>
+            <div class="activity-info m-1">
+              <p>Deployed Workcation (2d89f0c8 in master) to production </p>
+            </div>
+          </div>
+          <div class="activity-card m-1">
+            <div class="header-info m-1 flex">
+              <div>
+                <img src="img/user.jpg" alt="" class="user-image">
+                <span class="user-name">You</span>
+              </div>
+              <div>
+                <p>3h</p>
+              </div>
+            </div>
+            <div class="activity-info m-1">
+              <p>Deployed KiteTail (249df660 in master) to staging </p>
+            </div>
+          </div>
+          <div class="activity-card m-1">
+            <div class="header-info m-1 flex">
+              <div>
+                <img src="img/user.jpg" alt="" class="user-image">
+                <span class="user-name">You</span>
+              </div>
+              <div>
+                <p>12h</p>
+              </div>
+            </div>
+            <div class="activity-info m-1">
+              <p>Deployed Workcation (1146223 in master) to staging </p>
+            </div>
+          </div>
+          <div class="activity-card m-1">
+            <div class="header-info m-1 flex">
+              <div>
+                <img src="img/user.jpg" alt="" class="user-image">
+                <span class="user-name">You</span>
+              </div>
+              <div>
+                <p>2d</p>
+              </div>
+            </div>
+            <div class="activity-info m-1">
+              <p>Deployed Easywire (dad28e95 in master) to production </p>
+            </div>
+          </div>
+          <div class="activity-card m-1">
+            <div class="header-info m-1 flex">
+              <div>
+                <img src="img/user.jpg" alt="" class="user-image">
+                <span class="user-name">You</span>
+              </div>
+              <div>
+                <p>5d</p>
+              </div>
+            </div>
+            <div class="activity-info m-1">
+              <p>Deployed Easywire (624bc94c in master) to production </p>
+            </div>
+          </div>
+          <div class="activity-card m-1">
+            <div class="header-info m-1 flex">
+              <div>
+                <img src="img/user.jpg" alt="" class="user-image">
+                <span class="user-name">You</span>
+              </div>
+              <div>
+                <p>1w</p>
+              </div>
+            </div>
+            <div class="activity-info m-1">
+              <p>Deployed Workcation (e111f80e in master) to production </p>
+            </div>
+          </div>
+          <div class="activity-card m-1">
+            <div class="header-info m-1 flex">
+              <div>
+                <img src="img/user.jpg" alt="" class="user-image">
+                <span class="user-name">You</span>
+              </div>
+              <div>
+                <p>1w</p>
+              </div>
+            </div>
+            <div class="activity-info m-1">
+              <p>Deployed Resymaid (5e136005 in master) to staging </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
