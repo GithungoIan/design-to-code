@@ -6,6 +6,10 @@
   --activity-color: #f9fafb;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 @font-face {
   font-family: Inter;
   src: url("../fonts/Inter/static/Inter-SemiBold.ttf") format("truetype");
